@@ -1,0 +1,13 @@
+# Ignorowanie katalogu target
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignorowanie katalogu .idea
+.idea/
+
+# Ignorowanie pliku db.properties
+src/main/resources/db.properties
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
